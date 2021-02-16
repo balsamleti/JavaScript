@@ -1,0 +1,26 @@
+JavaScript
+---------------------------------------
+[1]Variables	
+	Data Types, Global, Local (https://developer.mozilla.org/en-US/docs/Learn/JavaScript/First_steps/Variables)
+    TypeCasting (https://www.w3schools.com/js/js_type_conversion.asp)
+[2]Functions
+	Function Declaration, Function Expression (https://medium.com/@mandeep1012/function-declarations-vs-function-expressions-b43646042052)
+                                              (https://developer.mozilla.org/en-US/docs/web/JavaScript/Reference/Operators/function)
+	Var Arg Function
+    Arrow Function (https://javascript.info/arrow-functions-basics)
+	Anonymous
+	Callback
+	Immediately Invoked Function Expression [IIFE]
+	Closure
+[3]PopUps(alert, confirm, prompt)
+[4]BuiltIn Objects (https://www.w3schools.com/js/js_object_definition.asp)
+[5]User Defined Objects
+[6]Object.DefineProperty
+[7]Constructor and OOP (https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Objects/Basics)
+
+[8]Events (https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Building_blocks/Events)
+[9]addEventListener
+[10]preventDefault
+[11]Ajax
+[12]DOM, BOM
+[13]Window, Document
