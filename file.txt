@@ -12,15 +12,15 @@ JavaScript
 	Callback
 	Immediately Invoked Function Expression [IIFE]
 	Closure
-[3]PopUps(alert, confirm, prompt)
-[4]BuiltIn Objects (https://www.w3schools.com/js/js_object_definition.asp)
-[5]User Defined Objects
-[6]Object.DefineProperty
-[7]Constructor and OOP (https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Objects/Basics)
-
-[8]Events (https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Building_blocks/Events)
-[9]addEventListener
-[10]preventDefault
-[11]Ajax
-[12]DOM, BOM
-[13]Window, Document
+[3]Strings (https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Stringhttps://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String)
+[4]PopUps(alert, confirm, prompt)
+[5]BuiltIn Objects (https://www.w3schools.com/js/js_object_definition.asp)
+[6]User Defined Objects
+[7]Object.DefineProperty
+[8]Constructor and OOP (https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Objects/Basics)
+[9]Events (https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Building_blocks/Events)
+[10]addEventListener
+[11]preventDefault
+[12]Ajax
+[13]DOM, BOM
+[14]Window, Document

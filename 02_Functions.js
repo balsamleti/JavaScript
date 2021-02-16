@@ -44,3 +44,18 @@ function myFunction(a,b,c=65) {
 }
 
 console.log(myFunction(4, 3));
+
+
+// Arrow Function
+let sum = (a, b) => a + b;
+
+// let sum = function(a, b) {
+//   return a + b;
+// };
+
+let sum = (a, b) => { 
+    let result = a + b;
+    return result; 
+};
+
+console.log(sum(1, 2) ); // 3
