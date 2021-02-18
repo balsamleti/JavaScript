@@ -66,6 +66,7 @@ setTimeout(function () {
 
 
 // clearTimeout() Method
+// Refer 02_functions.html
 
 
 // anonymous self-invoking function
@@ -131,4 +132,36 @@ function sortArguments() {
     return sortedArgs
 }
 console.log(sortArguments(5, 3, 7, 1))
+
+
+// JS Async
+//  Callback function
+
+function greet(name, callback) {
+    console.log('Hi' + ' ' + name);
+    callback();
+}
+
+function callMe() {     //This is Call Back Function
+    console.log('I am callback function');
+}
+
+greet('Peter', callMe);
+
+
+// IIFE (Immediately Invoked Function Expression) 
+//  OR
+// Anonymous self-invoking function
+(function(){
+    var y = "Hello";
+    console.log(y);
+})();
+
+// Named IIFE Function
+(function factorial(n) {
+    if (!n) {
+        return 1;
+    }
+    return n * factorial(n-1);
+})(3);
 
