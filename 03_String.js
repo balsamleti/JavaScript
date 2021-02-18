@@ -6,7 +6,7 @@
 // \"	"	    Double quote
 // \\	\	    Backslash
 
-var x = "We are the so-called \"Vikings\" from the north.";
+let x = "We are the so-called \"Vikings\" from the north.";
 console.log(x);
 
 
@@ -46,8 +46,8 @@ console.log(a.localeCompare(b)); // expected output: 1
 console.log(a.localeCompare(b, 'en', { sensitivity: 'base' })); // expected output: 0
 
 // String Length
-var txt = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
-var sln = txt.length;
+let txt = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+let sln = txt.length;
 console.log(sln);
 
 // match
@@ -64,12 +64,34 @@ console.log(array[1]);
 
 // Replace & ReplaceAll
 console.log(paragraph.replace('dog', 'monkey'));
-console.log(paragraph.replaceAll('monkey', 'dogs'));
+// console.log(paragraph.replaceAll('monkey', 'dogs'));
 
 // slice()
-const str1 = 'The quick brown fox jumps over the lazy dog.';
+const str12 = 'The quick brown fox jumps over the lazy dog.';
+// let str = "Apple, Banana, Kiwi";
+console.log(str12.slice(31)); // expected output: "the lazy dog."
+console.log(str12.slice(4, 19)); // expected output: "quick brown fox"
+console.log(str12.slice(-4)); // expected output: "dog."
+console.log(str12.slice(-9, -5));// expected output: "lazy"
 
-console.log(str1.slice(31)); // expected output: "the lazy dog."
-console.log(str1.slice(4, 19)); // expected output: "quick brown fox"
-console.log(str1.slice(-4)); // expected output: "dog."
-console.log(str1.slice(-9, -5));// expected output: "lazy"
+// Converting to Upper and Lower Case
+let text1 = "Hello World!";       // String
+console.log(text1.toUpperCase());
+console.log(text1.toLowerCase());
+
+// String.trim()
+let j = "       Balchandra Samleti!        ";
+console.log(j.trim());
+console.log(j.replace(/^[\s\uFEFF\xA0]+|[\s\uFEFF\xA0]+$/g, ''));
+
+// String Padding
+let mm = "5";
+console.log(mm.padStart(4,0));  //0005
+console.log(mm.padEnd(4,0));    //5000
+
+
+// Split on
+txt = "a,b,c,d,e"; 
+console.log(txt.split(","));          // Split on commas
+console.log(txt.split(" "));          // Split on spaces
+console.log(txt.split("|"));          // Split on pipe
