@@ -30,10 +30,8 @@ let cube = map(f,numbers);
 console.log(cube);
 
 
-
 // Named function expression
 let math = {
-    
     'factit': function factorial(n) {
       console.log(n)
       if (n <= 1) {
@@ -41,16 +39,33 @@ let math = {
       }
       return n * factorial(n - 1);
     },
-
     'Addition' : function add(n){
         return n+n;
     }
-    
 };
 
-var x = function (a, b) {return a * b};
+let x = function (a, b) {return a * b};
 console.log(x(4, 3));
 console.log(math.Addition(23));
+
+// Anonymous Functions in JavaScript
+
+x = function () {  
+    console.log('It is an anonymous function');  
+};  
+x();  
+
+// setTimeout() Method 
+setTimeout(function () {  
+    console.log('Execute later after 1 second')  
+}, 1000);  
+
+setTimeout(function () {  
+    console.log('Execute later after 7 second')  
+}, 7000); 
+
+
+// clearTimeout() Method
 
 
 // anonymous self-invoking function
@@ -60,13 +75,6 @@ console.log(math.Addition(23));
 })();
 
 
-function myFunction(a,b,c=65) {
-    return a+b+c;
-}
-
-console.log(myFunction(4, 3));
-
-
 // Arrow Function
 let sum = (a, b) => a + b;
 // OR
@@ -74,5 +82,53 @@ sum = (a, b) => {
     let result = a + b;
     return result; 
 };
-
 console.log(sum(1, 2) ); // 3
+
+
+// DefaultArgummnet Function
+function myFunction(a,b,c=65) {
+    return a+b+c;
+}
+console.log(myFunction(4, 3));
+
+
+// Var Arg Function
+function foo(x, ...args) {
+    console.log(x, args, ...args, arguments);
+}
+console.log(foo('a', 'b', 'c', z='d'));
+
+
+function add1(...numbers) {
+    return numbers.reduce((a, b) => a + b);
+}
+console.log(add1(1, 2, 3)); // 6
+console.log(add1(3, 2)); // 5
+
+  
+function myFun(a,  b, ...manyMoreArgs) {
+    console.log("a", a)
+    console.log("b", b)
+    console.log("manyMoreArgs", manyMoreArgs)
+}
+myFun("one", "two", "three", "four", "five", "six")
+// a one
+// b two
+// manyMoreArgs [ 'three', 'four', 'five', 'six' ]
+
+
+function multiply(multiplier, ...theArgs) {
+    return theArgs.map(element => {
+      return multiplier * element
+    })
+} 
+console.log(multiply(2, 15, 25, 42));  // [30, 50, 84]
+
+
+function sortArguments() {
+    let args = Array.from(arguments)
+    let sortedArgs = args.sort()
+    return sortedArgs
+}
+console.log(sortArguments(5, 3, 7, 1))
+

@@ -6,9 +6,9 @@ JavaScript
 [2]Functions
 	Function Declaration, Function Expression (https://medium.com/@mandeep1012/function-declarations-vs-function-expressions-b43646042052)
                                               (https://developer.mozilla.org/en-US/docs/web/JavaScript/Reference/Operators/function)
-	Var Arg Function
+	Var Arg Function (https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/rest_parameters)
     Arrow Function (https://javascript.info/arrow-functions-basics)
-	Anonymous
+	Anonymous (https://www.javatpoint.com/javascript-anonymous-functions)
 	Callback
 	Immediately Invoked Function Expression [IIFE]
 	Closure
@@ -23,4 +23,4 @@ JavaScript
 [11]preventDefault
 [12]Ajax
 [13]DOM, BOM
-[14]Window, Document
+[14]Window, Document  (https://medium.com/@milankrushna/window-is-not-defined-3a32b709e40f)
