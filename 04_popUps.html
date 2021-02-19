@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<body>
+    
+    
+    <h3>Alert Box</h3> 
+    <button onclick="aa()"> 
+        Click here for alert box 
+    </button> 
+
+    <h3>Prompt Box</h3> 
+    <input type="button" onclick="bb();"
+    value="Click here for Prompt box"/> 
+
+    <h3>Confirm Box</h3> 
+    <button onclick="cc()"> 
+      Click here for Confirm box 
+    </button> 
+    <p id="display"></p> 
+
+    
+   
+   
+    <script> 
+        // Alert box function 
+        aa = () => { 
+            alert("This is Alert Box"); 
+        };
+
+
+        //  Promt box function
+        bb = () =>{ 
+            let x = prompt("Enter your mail here : "); 
+            document.write("Your ID : " + x); 
+        } 
+
+
+        // Confirm box function
+        cc = () => { 
+            let x; 
+            if (confirm("Press a button!") == true) { 
+                x = "OK pressed!"; 
+            } else { 
+                x = "Cancel!"; 
+            } 
+            document.getElementById("display").innerHTML = x; 
+        } 
+    </script>     
+</body>
+</html>

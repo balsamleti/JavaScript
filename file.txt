@@ -11,9 +11,9 @@ JavaScript
 	Anonymous (https://www.javatpoint.com/javascript-anonymous-functions)
 	Callback (https://www.freecodecamp.org/news/javascript-callback-functions-what-are-callbacks-in-js-and-how-to-use-them/)
 	Immediately Invoked Function Expression [IIFE] (https://developer.mozilla.org/en-US/docs/Glossary/IIFE)
-	Closure
+	Closure (https://developer.mozilla.org/en-US/docs/Web/JavaScript/Closures)
 [3]Strings (https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String)
-[4]PopUps(alert, confirm, prompt)
+[4]PopUps [alert, confirm, prompt] (https://www.w3schools.com/js/js_popup.asp) 
 [5]BuiltIn Objects (https://www.w3schools.com/js/js_object_definition.asp)
 [6]User Defined Objects
 [7]Object.DefineProperty

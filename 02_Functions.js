@@ -69,13 +69,6 @@ setTimeout(function () {
 // Refer 02_functions.html
 
 
-// anonymous self-invoking function
-(function(){
-    var y = "Hello";
-    console.log(y);
-})();
-
-
 // Arrow Function
 let sum = (a, b) => a + b;
 // OR
@@ -165,3 +158,15 @@ greet('Peter', callMe);
     return n * factorial(n-1);
 })(3);
 
+
+function makeAdder(x) {
+    return function(y) {
+      return x + y;
+    };
+  }
+  
+var add5 = makeAdder(5);
+var add10 = makeAdder(10);
+
+console.log(add5(2));  // 7
+console.log(add10(2)); // 12
