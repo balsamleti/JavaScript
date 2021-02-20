@@ -3,6 +3,7 @@ JavaScript
 [1]Variables	
 	Data Types, Global, Local (https://developer.mozilla.org/en-US/docs/Learn/JavaScript/First_steps/Variables)
     TypeCasting (https://www.w3schools.com/js/js_type_conversion.asp)
+
 [2]Functions
 	Function Declaration, Function Expression (https://medium.com/@mandeep1012/function-declarations-vs-function-expressions-b43646042052)
                                               (https://developer.mozilla.org/en-US/docs/web/JavaScript/Reference/Operators/function)
@@ -12,16 +13,29 @@ JavaScript
 	Callback (https://www.freecodecamp.org/news/javascript-callback-functions-what-are-callbacks-in-js-and-how-to-use-them/)
 	Immediately Invoked Function Expression [IIFE] (https://developer.mozilla.org/en-US/docs/Glossary/IIFE)
 	Closure (https://developer.mozilla.org/en-US/docs/Web/JavaScript/Closures)
+
 [3]Loops and iteration (https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Loops_and_iteration)
+
 [4]Strings (https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String)
+
 [5]PopUps [alert, confirm, prompt] (https://www.w3schools.com/js/js_popup.asp) 
-[6]Objects (https://www.w3schools.com/js/js_object_definition.asp)
+
+[6]Buildin Objects (https://www.w3schools.com/js/js_object_definition.asp)
+
 [7]User Defined Objects
+
 [8]Object.DefineProperty
+
 [10]Constructor and OOP (https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Objects/Basics)
+
 [11]Events (https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Building_blocks/Events)
+
 [12]addEventListener
+
 [13]preventDefault
+
 [14]Ajax
+
 [15]DOM, BOM
+
 [16]Window, Document  (https://medium.com/@milankrushna/window-is-not-defined-3a32b709e40f)
