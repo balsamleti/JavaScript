@@ -67,12 +67,12 @@ console.log(paragraph.replace('dog', 'monkey'));
 // console.log(paragraph.replaceAll('monkey', 'dogs'));
 
 // slice()
-const str12 = 'The quick brown fox jumps over the lazy dog.';
+const str12 = 'pug, Labrador, Datschunde';
 // let str = "Apple, Banana, Kiwi";
-console.log(str12.slice(31)); // expected output: "the lazy dog."
-console.log(str12.slice(4, 19)); // expected output: "quick brown fox"
-console.log(str12.slice(-4)); // expected output: "dog."
-console.log(str12.slice(-9, -5));// expected output: "lazy"
+// console.log(str12.slice(31)); // expected output: "the lazy dog."
+console.log(str12.slice(5, 8)); // expected output: "quick brown fox"
+console.log(str12.slice(-11,-3)); // expected output: "dog."
+// console.log(str12.slice(-9, -5));// expected output: "lazy"
 
 // Converting to Upper and Lower Case
 let text1 = "Hello World!";       // String

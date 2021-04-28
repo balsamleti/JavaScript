@@ -22,9 +22,9 @@ JavaScript
 
 [6]Buildin Objects (https://www.w3schools.com/js/js_object_definition.asp)
 
-[7]User Defined Objects
+[7]User Defined Objects 
 
-[8]Object.DefineProperty
+[8]Object.DefineProperty (https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/defineProperty)
 
 [10]Constructor and OOP (https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Objects/Basics)
 
